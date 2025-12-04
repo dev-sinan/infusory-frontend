@@ -32,7 +32,7 @@ export default function Dashboard() {
 
         {/* Welcome Section */}
         <h1 className="text-4xl font-bold text-gray-800 mb-2">
-          Welcome back, Sinan 👋
+          Welcome back👋
         </h1>
         <p className="text-gray-600 mb-8">Manage your 3D models easily.</p>
 
