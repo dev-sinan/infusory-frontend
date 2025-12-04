@@ -4,7 +4,9 @@ const API ="https://infusory-backend.onrender.com/api/models" || "http://localho
 
 // UPLOAD
 export const uploadModel = async (file) => {
-  const formData = new FormData();
+try
+{
+      const formData = new FormData();
   formData.append("file", file);
 
   const res = await axios.post(`${API}/upload`, formData, {
@@ -12,6 +14,10 @@ export const uploadModel = async (file) => {
   });
 
   return res.data;
+}catch(err){
+    alert(err.message);
+    console.log(err.message)
+}
 };
 
 // GET ALL MODELS
