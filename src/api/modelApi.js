@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/models";
+const API ="https://infusory-backend.onrender.com" || "http://localhost:5000/api/models";
 
 // UPLOAD
 export const uploadModel = async (file) => {
