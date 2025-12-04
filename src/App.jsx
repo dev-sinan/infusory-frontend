@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import UploadPage from "./pages/Uploadpage";
 import ModelsPage from "./pages/Modelspage";
-import Viewer from "./pages/viewer.jsx";
+import Viewer from "./pages/Viewers";
 
 export default function App() {
   return (
